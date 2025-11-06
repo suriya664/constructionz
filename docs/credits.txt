@@ -1,0 +1,29 @@
+SmartBuild Construction Template - Credits
+==========================================
+
+Images:
+-------
+All images sourced from Pexels (https://www.pexels.com/)
+- Free to use for commercial and personal projects
+- No attribution required
+
+Icons:
+------
+Font Awesome 6.4.0
+- https://fontawesome.com/
+
+Fonts:
+------
+Google Fonts
+- Poppins: https://fonts.google.com/specimen/Poppins
+- Roboto: https://fonts.google.com/specimen/Roboto
+
+Frameworks & Libraries:
+-----------------------
+- Bootstrap 5.3.0: https://getbootstrap.com/
+- jQuery 3.7.1: https://jquery.com/
+
+Developer:
+----------
+SmartBuild Construction Team
+

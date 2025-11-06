@@ -1,0 +1,155 @@
+/*
+ * SmartBuild Construction Template - Responsive Styles
+ * Mobile-First Approach
+ */
+
+/* ===== MOBILE FIRST (Base) ===== */
+.container {
+  width: 100%;
+  padding: 0 var(--spacing-md);
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 calc(-1 * var(--spacing-sm));
+}
+
+[class*="col-"] {
+  padding: 0 var(--spacing-sm);
+  margin-bottom: var(--spacing-md);
+  width: 100%;
+}
+
+/* ===== TABLET (≥768px) ===== */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  .col-md-4 {
+    width: 33.333%;
+  }
+  
+  .col-md-3 {
+    width: 25%;
+  }
+  
+  h1 { font-size: 3rem; }
+  h2 { font-size: 2.25rem; }
+  
+  section {
+    padding: 3.5rem 0;
+  }
+}
+
+/* ===== DESKTOP (≥992px) ===== */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  
+  /* Desktop grid widths */
+  .col-lg-2 {
+    width: 16.666%;
+  }
+  .col-lg-4 {
+    width: 33.333%;
+  }
+  
+  .col-lg-3 {
+    width: 25%;
+  }
+  
+  .col-lg-6 {
+    width: 50%;
+  }
+  
+  .navbar-nav {
+    display: flex !important;
+  }
+  
+  .navbar-toggler {
+    display: none;
+  }
+}
+
+/* ===== LARGE DESKTOP (≥1200px) ===== */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* ===== MOBILE NAVBAR ===== */
+@media (max-width: 991px) {
+  .navbar-nav {
+    position: fixed;
+    top: 70px;
+    left: -100%;
+    width: 280px;
+    height: calc(100vh - 70px);
+    background: var(--white);
+    box-shadow: var(--shadow-lg);
+    flex-direction: column;
+    padding: var(--spacing-lg);
+    transition: left var(--transition-base);
+    z-index: 999;
+  }
+  
+  .navbar-nav.active {
+    left: 0;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: var(--spacing-md);
+    margin: var(--spacing-xs) 0;
+    border-bottom: 1px solid var(--light-gray);
+  }
+  
+  .navbar-toggler {
+    display: block;
+    background: none;
+    border: none;
+    font-size: var(--fs-xl);
+    color: var(--text-primary);
+    cursor: pointer;
+  }
+}
+
+/* ===== MOBILE TYPOGRAPHY ===== */
+@media (max-width: 767px) {
+  html {
+    font-size: 14px;
+  }
+  
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.5rem; }
+  h4 { font-size: 1.25rem; }
+  
+  section {
+    padding: var(--spacing-xl) 0;
+  }
+  
+  .section-title {
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .card-body {
+    padding: var(--spacing-md);
+  }
+  
+  .back-to-top {
+    width: 45px;
+    height: 45px;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+

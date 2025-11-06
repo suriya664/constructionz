@@ -1,0 +1,20 @@
+/*
+ * SmartBuild Construction Template - RTL Support
+ */
+
+[dir="rtl"] {
+  direction: rtl;
+}
+
+[dir="rtl"] .navbar-nav {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] .text-left {
+  text-align: right !important;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left !important;
+}
+

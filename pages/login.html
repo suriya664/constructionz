@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - SmartBuild Construction</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <div id="preloader-placeholder"></div>
+  <div id="header-placeholder"></div>
+  
+  <section class="auth-section" style="margin-top: 70px;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="auth-wrapper row g-0 align-items-stretch">
+            <!-- Left side -->
+            <div class="col-lg-6 d-none d-lg-block auth-side">
+              <div class="auth-brand">SmartBuild</div>
+              <h2 class="auth-title">Welcome Back!</h2>
+              <p class="auth-subtitle mb-4">Continue with your project journey</p>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2"><i class="fas fa-check me-2" style="color:#0073C8"></i>Track project progress</li>
+                <li class="mb-2"><i class="fas fa-check me-2" style="color:#0073C8"></i>Access documents safely</li>
+                <li class="mb-2"><i class="fas fa-check me-2" style="color:#0073C8"></i>Message the team directly</li>
+              </ul>
+            </div>
+
+            <!-- Right side (form) -->
+            <div class="col-lg-6 bg-white auth-card">
+              <h2 class="text-center mb-4">Login</h2>
+              <form>
+                <div class="mb-3 input-with-icon">
+                  <span class="icon"><i class="fas fa-envelope"></i></span>
+                  <label class="form-label">Email Address</label>
+                  <input type="email" class="form-control" placeholder="your.email@example.com" required>
+                </div>
+                <div class="mb-2 input-with-icon">
+                  <span class="icon"><i class="fas fa-lock"></i></span>
+                  <label class="form-label">Password</label>
+                  <input type="password" class="form-control" placeholder="Enter your password" required>
+                </div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="remember">
+                    <label class="form-check-label" for="remember">Remember me</label>
+                  </div>
+                  <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 mb-3">Login</button>
+                <div class="text-center">
+                  <a href="register.html">Don't have an account? Register</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/ajax.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,15 @@
+SmartBuild Construction Template - Changelog
+=============================================
+
+Version 1.0.0 - January 2025
+-----------------------------
+- Initial release
+- Mastercard-inspired theme (red/orange gradient)
+- Responsive design for all devices
+- Complete page structure with header/footer partials
+- AJAX form handling
+- Smooth animations and transitions
+- GitHub Pages ready
+- Standard spacing and typography
+- Justified content throughout
+
